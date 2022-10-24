@@ -50,3 +50,9 @@ Start the server.
 ```
 npm start
 ```
+
+Start the db in a seperate terminal.
+
+```
+mongo
+```
