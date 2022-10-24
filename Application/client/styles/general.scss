@@ -1,0 +1,51 @@
+html {
+  background-color: $whitesmoke;
+  font-size: 1em;
+}
+
+a {
+  color: $info;
+}
+
+.title {
+  font-weight: $weight-normal;
+}
+
+.section {
+  background-color: transparent;
+}
+
+.box {
+  border-radius: 2px;
+}
+
+.select::after {
+  border-color: $dark-grey;
+}
+
+.field.has-help {
+  height: 67px;
+}
+.card {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-content {
+  flex: 1;
+}
+.card-footer {
+  margin-bottom: 0px !important;
+}
+.card-footer-item {
+  cursor: pointer;
+  &:hover {
+    background-color: $lightest-grey;
+  }
+}
+
+// Bug in production
+.select select {
+  padding-right: 2.5em;
+}
